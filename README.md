@@ -54,7 +54,7 @@ Despite investing in digital campaigns, ShopEasy noticed:
 - Mixed customer sentiment & reviews
 - Low ROI from marketing spending
 
-### 🎯 Objective
+## 🎯 Objective
 Use data analysis & BI to:
 - Understand marketing performance drivers
 - Improve customer experience & campaign impact
@@ -68,15 +68,18 @@ Customer Reviews | Rating, review text, dates, text sentiment
 Engagement Data | Views, clicks, likes by content type  
 Products Data | Product & category metadata  
 
+
 ## 🛠 Tech Stack
 - **SQL Server** – Data cleaning, modeling, feature engineering  
 - **Python + NLTK** – Sentiment analysis on review text  
 - **Power BI** – DAX, Data modeling, dashboards  
 - **Excel/CSV** – Raw data storage
 
+
 ## 🏗️ Architecture
 
 Raw Data → SQL Cleaning & Modeling → Python Sentiment Scoring → Power BI → Insights
+
 
 
 ## 🧠 Data Engineering (SQL)
@@ -94,6 +97,7 @@ Raw Data → SQL Cleaning & Modeling → Python Sentiment Scoring → Power BI �
 - fact_engagement_data.sql → extracts views/click split from combined text
 
 All scripts available in `/sql/` folder.
+
 
 ## 🤖 Sentiment Analysis with Python (NLTK)
 
@@ -113,13 +117,9 @@ All scripts available in `/sql/` folder.
 ```bash
 pip install pandas nltk pyodbc
 python customer_review_sentiments.py
+---------------------------------------------
+## ✅ **Power BI Dashboards**
 
-
----
-
-## ✅ **PART 9 — Power BI Dashboards**
-
-```md
 ## 📊 Power BI Interactive Dashboards
 
 ### 1️⃣ Overview Dashboard
